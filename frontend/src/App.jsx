@@ -1,13 +1,18 @@
 import { useState } from 'react'
 import '@xyflow/react/dist/style.css';
+import LeftItemSection from './components/LeftItemSection';
+import MiddleCanvasSection from './components/MiddleCanvasSection';
+import RightItemSection from './components/RightItemSection';
 
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <div className='w-screen h-screen bg-red-300 flex'>
+        <LeftItemSection />
+        <MiddleCanvasSection />
+        <RightItemSection />
+      </div>
     </>
   )
 }
