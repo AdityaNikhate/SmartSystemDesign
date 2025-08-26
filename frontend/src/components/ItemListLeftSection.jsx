@@ -7,12 +7,11 @@ const ItemListLeftSection = () => {
     const buttonArray = Object.entries(buttonAndFuntions);
 
   return (
-    <div className='w-full mt-2 pt-1 px-1 h-[90%] overflow-auto scrollbar-hide'>
+    <div className='w-full px-1 h-[90%] overflow-auto scrollbar-hide'>
         {buttonArray.map(([key, item]) => (
         <ItemButtonComponent 
           key={key} 
           name={item.name} 
-          message={item.message} 
         />
       ))}
     </div>
