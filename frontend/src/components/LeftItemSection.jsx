@@ -5,7 +5,7 @@ import ClearCanvasButton from './ClearCanvasButton'
 
 const LeftItemSection = () => {
   return (
-    <div className='h-full bg-slate-800 w-1/5 px-4 py-6'>
+    <div className='sm:h-full bg-slate-800 flex h-[10%] overflow-hidden sm:block a sm:w-1/5 px-4 py-6'>
       <HeroName/>
       <ClearCanvasButton/>
       <ItemListLeftSection/>

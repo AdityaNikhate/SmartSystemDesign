@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className='w-screen h-screen bg-red-300 flex'>
+      <div className='w-screen h-screen bg-gray-700 sm:flex'>
         <LeftItemSection />
         <MiddleCanvasSection />
         <RightItemSection />

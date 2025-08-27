@@ -1,5 +1,6 @@
 import {combineReducers, configureStore} from '@reduxjs/toolkit'
 import nodesstore from './nodesstore'
+import edgesstore from './edgesstore'
 import {
   persistStore,
   persistReducer,
@@ -19,7 +20,8 @@ const persistConfig = {
   storage,
 }
 const rootReducer = combineReducers({
-  nodesstore
+  nodesstore,
+  edgesstore
 })
 const persistedReducer = persistReducer(persistConfig, rootReducer)
 

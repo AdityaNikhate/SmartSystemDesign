@@ -18,5 +18,29 @@ export const buttonAndFuntions = {
     "5":{
         name: "Redis",
         message:"Redis"
-    }
+    },
+    "6":{
+        name: "APIGateway",
+        message:"apigateway"
+    },
+    "6":{
+        name: "CDN",
+        message:"cdn"
+    },
+    "7":{
+        name: "LoadBalancer",
+        message:"loadbalancer"
+    },
+    "8":{
+        name: "Kafka",
+        message:"kafka"
+    },
+    "9":{
+        name: "NoSqlDb",
+        message:"nosqldb"
+    },
+    "10":{
+        name: "Auth",
+        message:"auth"
+    },
 };
